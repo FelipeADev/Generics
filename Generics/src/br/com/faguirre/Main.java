@@ -12,8 +12,6 @@ public class Main {
 
     public static void main(String[] args) {
         List<Car> lista = new ArrayList<>();
-        new GolfGTI(230,"Cheio",250);
-        new Brasília(54,"Cheio", 138);
 
         lista.add(Brasília);
         lista.add(GolfGTI);
