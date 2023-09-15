@@ -12,4 +12,11 @@ public abstract class Car {
         this.velocidadeMax = velocidadeMax;
     }
 
+    @Override
+    public String toString() {
+        return "Car: " +
+                "horsePower= " + horsePower +
+                ", tank= " + tank  +
+                ", velocidadeMax= " + velocidadeMax;
+    }
 }
